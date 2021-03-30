@@ -1,5 +1,5 @@
 i = 3
-while True:
+while i > 0 :
 	password = input('please sign u password: ')
 	if password == 'a123456':
 		print('success')
@@ -7,6 +7,3 @@ while True:
 	else:
 		i = i - 1
 		print ('wrong ans!have', i, 'chance')
-
-		if i == 0 :
-			break
